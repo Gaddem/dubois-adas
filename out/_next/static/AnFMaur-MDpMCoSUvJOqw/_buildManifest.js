@@ -1,10 +1,15 @@
 self.__BUILD_MANIFEST = {
   "/_error": [
-    "./static/chunks/59c555b18e1b820c.js"
+    "./static/chunks/8a0e49dba5034bad.js"
   ],
   "__rewrites": {
     "afterFiles": [],
-    "beforeFiles": [],
+    "beforeFiles": [
+      {
+        "source": "/dubois-adas//_next/:path+",
+        "destination": "/dubois-adas/_next/:path+"
+      }
+    ],
     "fallback": []
   },
   "sortedPages": [
