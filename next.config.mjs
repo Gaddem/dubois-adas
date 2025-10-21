@@ -1,8 +1,9 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'export',
-  images: { unoptimized: true }, // utile si tu utilises next/image
-  basePath: '/dubois-adas', // <-- change "mon-site" par le nom de ton repo
+  output: 'export',                // Rend le site statique
+  images: { unoptimized: true },   // Évite les problèmes avec next/image
+  basePath: '/dubois-adas',           // 👈 nom EXACT de ton repo GitHub
+  assetPrefix: '/dubois-adas/',       // 👈 pour les assets CSS/JS
 };
 
 export default nextConfig;
