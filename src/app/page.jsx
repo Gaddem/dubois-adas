@@ -51,7 +51,7 @@ export default function Home() {
       </section>
 
       <section className="text-center">
-        <Link href="/dubois-adas/rdv" className="inline-block px-6 py-3 bg-blue-600 text-white font-semibold rounded-lg hover:bg-blue-700">
+        <Link href="/rdv" className="inline-block px-6 py-3 bg-blue-600 text-white font-semibold rounded-lg hover:bg-blue-700">
           Prendre rendez-vous
         </Link>
       </section>

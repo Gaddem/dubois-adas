@@ -14,7 +14,7 @@ export default function RootLayout({ children }) {
         <Header />
 
         {/* Contenu scrollable */}
-        <main className="mt-0 h-[calc(100vh-96px)] overflow-auto pb-15">
+        <main className="mt-0 h-[calc(100vh-96px)] overflow-auto">
           {children}
         </main>
       </body>
